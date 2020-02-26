@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(180deg, #ffffff 20%, #e9e4bb 100%) fixed;
+  min-width: 600px;
+}
+
+.app {
+  margin: 30px 30px 0px 50px;
+
+}
+
+.response, .posttext {
+
+  margin-top:6px;
+  margin-bottom: 6px;
+}
+
+.response p {
+  color: green;
+  margin-left:6px;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+#heading {
+  position: relative;
+  top: -25px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#subtitle {
+  position: relative;
+  left: -160px;
+  top: -5px;
+}
+
+.content h2 {
+  font-size: 1.5em;
+}
+
+.content {
+  margin-left: 30px;
+}
+
+.entry {
+  margin-bottom: 32px;
+}
