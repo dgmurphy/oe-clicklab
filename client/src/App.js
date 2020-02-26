@@ -33,13 +33,18 @@ class App extends Component {
         <div className="content">
 
           <div className="entry">
-            <a href="./gkg-hist" target="_blank"><h2>GKG Histograms</h2></a>
+            <a href="http://localhost:9000/gkg-hist" target="_blank"><h2>GKG Histograms</h2></a>
             <p>Deep dive into two weeks of GKG data.</p>
           </div>
 
           <div className="entry">
-            <h2>SpaCy Digest of Mock IIR</h2>
-            <p>Kicking the tires on the spaCy Python lib.</p>
+            <a href="http://localhost:9000/spacy"><h2>SpaCy Digest of Mock IIR</h2></a>
+            <p>Kicking the tires on the spaCy Python lib for Natural Language Processing.</p>
+          </div>
+
+          <div className="entry">
+            <a href="http://localhost:9000/ntc"><h2>NTC IS Visualization</h2></a>
+            <p>Rendering 80 minutes of instrumentation system telemetry using DeckGL.</p>
           </div>
 
         </div>

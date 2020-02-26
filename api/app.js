@@ -30,9 +30,12 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/test-post', testPostRouter);
 app.use('/test-get', testGetRouter);
-app.use('/gkg-hist', express.static(path.join(__dirname, '/gkg-hist')));
 
+app.use(serveStatic('public/oe-clicklab', { 'index': ['index.html', 'index.htm'] }))
 app.use(serveStatic('public/gkg-hist', { 'index': ['index.html', 'index.htm'] }))
+app.use(serveStatic('public/ntc', { 'index': ['index.html', 'index.htm'] }))
+app.use(serveStatic('public/spacy', { 'index': ['index.html', 'index.htm'] }))
+
 
 app.use(express.static(path.join(__dirname, 'public')));
 
