@@ -33,6 +33,12 @@ class App extends Component {
         <div className="content">
 
           <div className="entry">
+            <a href="../rgraph" target="_blank"><h2>Force Directed Graph (R Shiny)</h2></a>
+            <p>Export of test network data as graph using R.</p>
+          </div>
+
+
+          <div className="entry">
             <a href="../gkg-hist" target="_blank"><h2>GKG Histograms</h2></a>
             <p>Deep dive into two weeks of GKG data.</p>
           </div>
