@@ -1,7 +1,7 @@
 body {
   
   min-width: 600px;
-  background: url('../images/lab.png'), linear-gradient(180deg, #ffffff 20%, #e9e4bb 100%) fixed;
+  background: url('../images/lab.png'), linear-gradient(180deg, #f2f4f8 20%, #d2d3e9 75%,#b8b7ce 100%) fixed;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom right;
