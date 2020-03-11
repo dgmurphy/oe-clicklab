@@ -33,8 +33,13 @@ class App extends Component {
         <div className="content">
 
           <div className="entry">
-            <a href="../rgraph" target="_blank"><h2>Force Directed Graph (R Shiny)</h2></a>
-            <p>Export of test network data as graph using R.</p>
+            <p><a href="../rgraph" target="_blank"><h2>BFB IIR Graphs</h2></a></p>
+            <p><a href="../bfb/PersonsOrgs-graph_ALL.html" target="_blank">All co-mentions (large network!)</a></p>
+            <p><a href="../bfb/PersonsOrgs-graph_n2.html" target="_blank">Two or more co-mentions</a></p>
+            <p><a href="../bfb/PersonsOrgs-graph_n3.html" target="_blank">Three or more (good middle ground)</a></p>
+            <p><a href="../bfb/PersonsOrgs-graph_n4.html" target="_blank">Four or more (small graph)</a></p>
+            <p><a href="../bfb/PersonsOrgs-graph_n5.html" target="_blank">Five or more</a></p>
+            <p><a href="../bfb/PersonsOrgs-graph_n6.html"target="_blank">Six or more</a></p>
           </div>
 
 
